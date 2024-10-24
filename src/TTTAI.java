@@ -26,7 +26,6 @@ public class TTTAI {
         int moveIndex = 0;
         int chanceOfWinningToBeat = -99999;
         for(int i = 1; i < 10; i++){
-            System.out.println(probabilityOfMoveWinning[i]);
             if(probabilityOfMoveWinning[i]>chanceOfWinningToBeat){
                 moveIndex = i;
                 chanceOfWinningToBeat = probabilityOfMoveWinning[i];
